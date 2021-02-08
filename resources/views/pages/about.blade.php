@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('title', 'About Us | Hello City')
+
 @section('content')   
     <p>Built by &hearts; Soulman Dev</p>
         

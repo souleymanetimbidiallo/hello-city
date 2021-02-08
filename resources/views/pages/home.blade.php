@@ -1,5 +1,6 @@
 @extends('app')
 
+
 @section('content')   
 <h1>Hello from Rennes</h1>
 
