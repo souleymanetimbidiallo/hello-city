@@ -15,5 +15,9 @@ Route::get('/about-us', function (){
     return view('pages.about');
 })->name('app_about');
 
+Route::get('/help', function (){
+    return view('pages.help');
+})->name('app_help');
+
 
 

@@ -1,7 +1,6 @@
-@extends('app')
+@extends('layouts.app', ['title'=>'About-us'])
 
 
-@section('title', 'About Us | '.config('app.name'))
 
 @section('content')   
     <img src="{{asset('/images/avatar.png')}}" 

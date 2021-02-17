@@ -1,5 +1,4 @@
-@extends('app')
-
+@extends('layouts.app')
 
 @section('content')   
 <img src="{{asset('/images/rennes.png')}}" class="mt-12 rounded shadow-md h-32" alt="Rennes Flag">
