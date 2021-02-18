@@ -19,5 +19,10 @@ Route::get('/help', function (){
     return view('pages.help');
 })->name('app_help');
 
+Route::get('/towns', function(){
+    $towns  = App\Models\Township::all();
+
+    return view('pages.towns')->withTowns($towns); 
+});
 
 
